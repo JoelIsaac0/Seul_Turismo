@@ -1,0 +1,263 @@
+body{
+
+    background-image: url(../imagenes/foto.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+}
+main{
+	text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textos{
+    margin: 40px;
+    font-size: 40px;
+    color: white;
+    
+}
+.boton {
+	background-color: #1FFF41;
+	padding: 20px 7px;
+	border-radius:4px;
+	margin-bottom: 5px;
+	display:inline-block;
+}
+
+button{
+	padding:0;
+	margin:50px auto 0;
+	
+}
+.contener_tabla{
+    display: flex;
+    padding-top: 60px;
+    padding-right: 10px;
+    border-spacing: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin:50px auto 0;
+    
+    
+}
+
+.container img{
+width: 100%;
+height: 100%;
+	
+}
+
+.container p{
+	font-size: 1rem; 
+	color : white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+.img-hoteles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    text-align: center;
+}
+
+.foto__img{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width: 516px;
+    padding-left: 10px;
+    background-color: black;
+}
+
+
+.contenedor {
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Gill Sans Extrabold;
+}
+
+nav {
+background-color: #AEA3B0;
+padding: 20px 7px;
+font-family: Gill Sans Extrabold;
+}
+
+
+header .textos{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textos h1{
+    font-size: 68px;
+    color:#F1511A;
+}
+
+.textos h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.textos h4{
+    font-size: 70px;
+    font-weight: 500;
+    color:#FFE01F;
+    text-align: center;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.contenidori{
+	display:flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+
+.slider {
+	background-image: url("../imagenes/quito.jpg");
+	background-size: 100% 100%;
+	top: 50%;
+	margin:50px auto 0;
+	left: 50%;
+	width: 800px;
+	height: 800px;
+	border-radius: 30px;
+	animation: slide 15s infinite linear;
+	
+}
+
+@keyframes slide {
+	0%  {background-image: url(../imagenes/quito.jpg);}
+	25%  {background-image: url(../imagenes/bush.png);}
+	50%  {background-image: url(../imagenes/san.jpg);}
+	75%  {background-image: url(../imagenes/icn.jpg);}
+}
+
+section{
+	padding: 110px 50px 50px 110px;
+}
+.ini {
+	text-align: -webkit-center;
+}
+ul li {
+	margin: 30px;
+}
+
+ol li {
+	margin: 30px;
+	font-weight: 500;
+}
+.contenido-textos{
+
+	width: 80%;
+    font-family: Times New Roman;
+    margin-right: 60px;
+    color: white;
+	
+}
+
+.caja {
+	border: 1px solid black;
+	background-color : white;
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	width: 350px;
+	height: 350px;
+	
+}
+
+.flex_imagenes{
+	
+	padding: 80px;
+	display:flex;
+	flex-direction: row;
+	width: 50%;
+	height: 500px;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.flex_videos{
+	
+	padding: 80px;
+	display:flex;
+	flex-direction: row;
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	align-items: center;	
+	justify-content: center;
+}
+
+sectionubi {
+float:center;
+align-items: center;
+align-content: center;
+background: 4074ec;
+justify-content: center;
+display: flex;
+}
+
+.caja_videos {
+	border: 1px solid black;
+	background-color : white;
+	color: black;
+	font-weight: bold;
+	width: 700px;
+	height: 700px;
+}
+
+footer{
+    background: #AFC3EC;
+    padding: 5px 5px;
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    clear: both;
+}
+
+.credit{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #080705;
+}
